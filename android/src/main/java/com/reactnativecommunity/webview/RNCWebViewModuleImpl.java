@@ -383,7 +383,7 @@ public class RNCWebViewModuleImpl implements ActivityEventListener {
             intent.putExtra(MediaStore.EXTRA_OUTPUT, outputVideoUri);
         } catch (IOException | IllegalArgumentException e) {
             Log.e("CREATE FILE", "Error occurred while creating the File", e);
-            e.printStackTrace();
+            
         }
 
         return intent;
